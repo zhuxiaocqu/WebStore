@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadProductServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.UploadProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    
+    <servlet-name>ShowGoodServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.ShowGoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowGoodDetail</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.ShowGoodDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeRegisterServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.EmployeeRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowEmployeeServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.ShowEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowEmployeeDetail</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.ShowEmployeeDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeDeleteServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.EmployeeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowOrderServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.ordermanager.ShowOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowOrderDetail</servlet-name>
+    <servlet-class>com.webstore.servlet.back.ordermanager.ShowOrderDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.ordermanager.OrderDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteDeliver</servlet-name>
+    <servlet-class>com.webstore.servlet.back.delivermanager.deleteDeliver</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliverShow</servlet-name>
+    <servlet-class>com.webstore.servlet.back.delivermanager.deliverShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uodateDeliver</servlet-name>
+    <servlet-class>com.webstore.servlet.back.delivermanager.uodateDeliver</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateDeliver</servlet-name>
+    <servlet-class>com.webstore.servlet.back.delivermanager.updateDeliver</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showuser</servlet-name>
+    <servlet-class>com.webstore.servlet.back.usermanager.showuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showUserDetail</servlet-name>
+    <servlet-class>com.webstore.servlet.back.usermanager.showUserDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changeUser</servlet-name>
+    <servlet-class>com.webstore.servlet.back.usermanager.changeUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PictureCheckCode</servlet-name>
+    <servlet-class>com.webstore.servlet.back.employeemanager.PictureCheckCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditGoodNeedservlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.EditGoodNeedservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteNeedGood</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.deleteNeedGood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodNeedServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.GoodNeedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.RestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowGoodPicServlet</servlet-name>
+    <servlet-class>com.webstore.servlet.back.productmanager.ShowGoodPicServlet</servlet-class>
+  </servlet>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UploadProductServlet</servlet-name>
+    <url-pattern>/servlet/UploadProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/servlet/UpdateProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoodServlet</servlet-name>
+    <url-pattern>/servlet/ShowGoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/servlet/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoodDetail</servlet-name>
+    <url-pattern>/servlet/ShowGoodDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeRegisterServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowEmployeeServlet</servlet-name>
+    <url-pattern>/servlet/ShowEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowEmployeeDetail</servlet-name>
+    <url-pattern>/servlet/ShowEmployeeDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeDeleteServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOrderServlet</servlet-name>
+    <url-pattern>/servlet/ShowOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOrderDetail</servlet-name>
+    <url-pattern>/servlet/ShowOrderDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <url-pattern>/servlet/OrderDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteDeliver</servlet-name>
+    <url-pattern>/servlet/deleteDeliver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliverShow</servlet-name>
+    <url-pattern>/servlet/deliverShow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uodateDeliver</servlet-name>
+    <url-pattern>/servlet/uodateDeliver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateDeliver</servlet-name>
+    <url-pattern>/servlet/updateDeliver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showuser</servlet-name>
+    <url-pattern>/servlet/showuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showUserDetail</servlet-name>
+    <url-pattern>/servlet/showUserDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeUser</servlet-name>
+    <url-pattern>/servlet/changeUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/servlet/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PictureCheckCode</servlet-name>
+    <url-pattern>/servlet/PictureCheckCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditGoodNeedservlet</servlet-name>
+    <url-pattern>/servlet/EditGoodNeedservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteNeedGood</servlet-name>
+    <url-pattern>/servlet/deleteNeedGood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodNeedServlet</servlet-name>
+    <url-pattern>/servlet/GoodNeedServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestServlet</servlet-name>
+    <url-pattern>/servlet/RestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoodPicServlet</servlet-name>
+    <url-pattern>/servlet/ShowGoodPicServlet</url-pattern>
+  </servlet-mapping>
+   
+  
+ 
+  <welcome-file-list>
+    <welcome-file>web/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

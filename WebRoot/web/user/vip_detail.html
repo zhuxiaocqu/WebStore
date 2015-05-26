@@ -1,0 +1,125 @@
+<link rel="stylesheet" type="text/css" href="/theme/13/style.css">
+<script src="/inc/js/ccorrect_btn.js"></script>
+<html>
+<head>
+<title>人事档案</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script type="text/javascript" src="/inc/js_lang.php"></script>
+<script type="text/javascript" src="/inc/js/attach.js"></script>
+<style media="print" type="text/css">
+.Noprint{display:none;}
+.PageNext{page-break-after: always;}
+.title1 {
+	font-size: 18px;
+	color: #FFF;
+}
+.title2 {
+	font-size: 24px;
+}
+</style>
+</head>
+
+<body class="bodycolor print" topmargin="5">
+
+
+
+
+
+
+
+<OBJECT classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2" height=0 id=WebBrowser name=WebBrowser width=0></OBJECT>
+
+<table width="100%" border="3" cellspacing="1" cellpadding="1">
+  <tr>
+    <td height="33" align="center"><strong>会员基本信息</strong></td>
+  </tr>
+</table>
+
+<table width="100%" border="2" cellspacing="1" cellpadding="1">
+  <tr>
+    <td width="17%" align="right">ID号码：</td>
+    <td width="83%" align="center">1234444</td>
+  </tr>
+  <tr>
+    <td align="right">登录账号：</td>
+    <td align="center">1234567890</td>
+  </tr>
+  <tr>
+    <td align="right">头像：</td>
+    <td align="center"><img src="../images/head.jpg" width="130" height="130"></td>
+  </tr>
+  <tr>
+    <td align="right">登录密码：</td>
+    <td align="center">111111</td>
+  </tr>
+  <tr>
+    <td align="right">真实名字：</td>
+    <td align="center">张三</td>
+  </tr>
+  <tr>
+    <td align="right">会员等级：</td>
+    <td align="center">3级</td>
+  </tr>
+  <tr>
+    <td align="right">性&nbsp;&nbsp;别：</td>
+    <td align="center">男</td>
+  </tr>
+  <tr>
+    <td align="right">年&nbsp;&nbsp;龄：</td>
+    <td align="center">29岁</td>
+  </tr>
+  <tr>
+    <td align="right">邮&nbsp;&nbsp;箱：</td>
+    <td align="center">123444@qq.com</td>
+  </tr>
+  <tr>
+    <td align="right">手机号码：</td>
+    <td align="center">135999911111</td>
+  </tr>
+  <tr>
+    <td align="right">出生日期：</td>
+    <td align="center">2013/3/1</td>
+  </tr>
+  <tr>
+    <td align="right">家庭地址：</td>
+    <td align="center">重庆市北碚区</td>
+  </tr>
+  <tr>
+    <td align="right">备&nbsp;&nbsp;注：</td>
+    <td align="left"><form name="form1" method="post" action="">
+      <label for="textarea"></label>
+      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+    </form></td>
+  </tr>
+</table>
+<p>
+  <center>
+  <input type= "button" name= "Button" class="SmallButton" value= "修改" onClick= "print_view()"> <input type="button" value="打印" class="SmallButton" onClick="window.print()">
+  </center>
+  
+  
+  <script language="javascript">
+function print_view()
+{
+if(self.frames.name!="")
+{
+var url=self.location.href;
+window.open(url,"","toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no");
+}
+else
+{
+window.document.all.WebBrowser.ExecWB(7,1);
+}
+}
+function open_pic(AVATAR)
+{
+url=AVATAR;
+window.open(url,"的头像","toolbar=0,status=0,menubar=0,scrollbars=yes,resizable=1")
+}
+</script>
+  
+  
+  
+</body>
+</html>
+

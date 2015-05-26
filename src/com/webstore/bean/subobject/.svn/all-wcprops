@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject
+END
+ProductBigType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/ProductBigType.java
+END
+ProductDetailType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/ProductDetailType.java
+END
+Base.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Base.java
+END
+UserList.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/UserList.java
+END
+ProductSmallType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/ProductSmallType.java
+END
+OrderProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/OrderProduct.java
+END
+Rest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Rest.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Employee.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Product.java
+END
+UserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/UserType.java
+END
+Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Producer.java
+END
+StoreIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/StoreIn.java
+END
+Sale.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Sale.java
+END
+FeedBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/FeedBack.java
+END
+ManagerGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/ManagerGroup.java
+END
+Authority.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Authority.java
+END
+MAAssociate.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/MAAssociate.java
+END
+Deliver.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/bean/subobject/Deliver.java
+END

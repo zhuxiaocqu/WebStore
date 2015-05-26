@@ -1,0 +1,37 @@
+package com.webstore.dao;
+
+import java.util.List;
+
+public class ProductBigTypeDAO implements BasicDAO {
+
+	public boolean delete(Object object) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean insert(Object object) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Object query(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Object> query(String str) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Object> queryAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean update(Object object) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

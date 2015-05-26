@@ -1,0 +1,40 @@
+10
+
+dir
+50
+https://zhuxiao-pc:8443/svn/WebStoreProject/WebStore/src/com/webstore
+https://zhuxiao-pc:8443/svn/WebStoreProject
+
+
+
+2013-09-04T16:17:58.544236Z
+50
+zx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87b6fc78-447d-164b-ba81-3c1398145121
+
+utils
+dir
+
+dao
+dir
+
+servlet
+dir
+
+bean
+dir
+

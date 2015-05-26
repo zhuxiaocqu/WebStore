@@ -1,0 +1,41 @@
+package com.webstore.bean.subobject;
+
+import com.webstore.bean.People;
+/**
+ * 员工类 存储员工信息
+ * @author zhuxiao
+ *
+ */
+public class Employee extends People {
+	private ManagerGroup ManagerGroup;
+	private String AboutMe;
+	private String Interest;
+	public ManagerGroup getManagerGroup() {
+		return ManagerGroup;
+	}
+	public void setManagerGroup(ManagerGroup managerGroup) {
+		ManagerGroup = managerGroup;
+	}
+	/**
+	 * 获取员工自我介绍
+	 * @return String
+	 */
+	public String getAboutMe() {
+		return AboutMe;
+	}
+	public void setAboutMe(String aboutMe) {
+		AboutMe = aboutMe;
+	}
+	/**
+	 * 获取员工兴趣爱好 String
+	 * @return
+	 */
+	public String getInterest() {
+		return Interest;
+	}
+	public void setInterest(String interest) {
+		Interest = interest;
+	}
+	
+	
+}

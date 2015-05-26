@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao
+END
+ProductSmallTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ProductSmallTypeDAO.java
+END
+OrderProductDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/OrderProductDAO.java
+END
+RestDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/RestDAO.java
+END
+EmployeeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/EmployeeDAO.java
+END
+ProductDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ProductDAO.java
+END
+UserTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/UserTypeDAO.java
+END
+BasicDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/BasicDAO.java
+END
+ProducerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ProducerDAO.java
+END
+StoreInDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/StoreInDAO.java
+END
+FeedBackDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/FeedBackDAO.java
+END
+SaleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/SaleDAO.java
+END
+ManagerGroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ManagerGroupDAO.java
+END
+AuthorityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/AuthorityDAO.java
+END
+MAAssociateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/MAAssociateDAO.java
+END
+DeliverDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/DeliverDAO.java
+END
+ProductBigTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ProductBigTypeDAO.java
+END
+ProductDetailTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/ProductDetailTypeDAO.java
+END
+BaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/BaseDAO.java
+END
+UserListDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WebStoreProject/!svn/ver/50/WebStore/src/com/webstore/dao/UserListDAO.java
+END

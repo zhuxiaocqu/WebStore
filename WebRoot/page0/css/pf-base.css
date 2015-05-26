@@ -1,0 +1,251 @@
+.sns-tab{
+    position:relative;
+    z-index:1;
+    margin-top: 10px;
+}
+.sns-tab ul{
+    *zoom:1;
+    position:relative;
+    z-index:10;
+}
+.sns-tab ul:after{
+    content:"";
+    height:0;
+    display:block;
+    clear:both;
+}
+.sns-tab ul li{
+    float:left;
+    *display:inline;
+    position:relative;
+    z-index:10;
+    margin:0 3px;
+}
+.sns-tab ul li a{
+    float:left;
+    padding:0 10px;
+    text-decoration:none;
+}
+.sns-tab .tab-opt{
+    position:absolute;
+    right:5px;
+    top:-2px;
+    _top:-1px;
+    z-index:10;
+}
+
+.sns-nf,
+.sns-config .sns-box .sns-nf {
+    width: 760px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.tab-app ul{
+    border-bottom:1px solid #dcdcdc;
+    padding-left:10px;
+    margin-bottom:-1px;
+}
+.tab-app ul li{
+    margin-bottom:-1px;
+}
+.tab-app li a,.tab-app li a:visited{
+    height:25px;
+    line-height:25px;
+    font-weight:normal;
+    color:#4388ce;
+    text-decoration:none;
+}
+.tab-app li a:hover{
+    border:1px solid #dcdcdc;
+    border-bottom:none;
+    height:23px;
+    line-height:23px;
+    padding:0 9px;
+    background-color:#fff;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+.tab-app li.selected{
+   /* border:1px solid #DCDCDC;*/
+	width:300px;
+    border-bottom:none;
+    background-color:#fff;
+}
+.tab-app li.selected a{
+    height:24px;
+    line-height:23px;
+}
+.tab-app li.selected a,
+.tab-app li.selected a:visited{
+    color:#333;
+    text-decoration:none;
+	font-weight:bold;
+}
+.selecthome{
+	
+	width=150px;
+	}
+.tab-app li.selected a:hover{
+    border:none;
+    height:24px;
+    line-height:23px;
+    _line-height:25px;
+    margin:0;
+    padding:0 10px;
+}
+
+.tab-sub ul,.sns-tab ul.tab-sub{
+    border-bottom:1px solid #D1D1D1;
+    padding:5px 10px 4px 10px;
+    background-color:#fff;
+}
+.sns-tab ul.tab-sub{
+    border-top:1px solid #dcdcdc;
+    z-index:1;
+}
+.tab-sub ul li,.sns-tab ul.tab-sub li{
+    border:none;
+    margin-bottom:0;
+    background:none;
+}
+.tab-sub li a,.tab-sub li a:visited,
+.sns-tab ul.tab-sub li a,
+.sns-tab ul.tab-sub li a:visited{
+    height:25px;
+    line-height:25px;
+    color:#313131;
+    text-decoration:none;
+    font-weight:100;
+}
+.tab-sub li a:hover,
+.sns-tab ul.tab-sub li a:hover {
+    border:1px solid #dcdcdc;
+    height:23px;
+    line-height:23px;
+    padding:0 9px;
+    margin:0;
+}
+
+.tab-sub li.selected a,
+.tab-sub li.selected a:visited,
+.sns-tab ul.tab-sub li.selected a,
+.sns-tab ul.tab-sub li.selected a:visited {
+    color:#666;
+    font-weight:700;
+    border:none;
+    text-decoration:none;
+}
+
+.tab-sub li.selected a:hover,.sns-tab ul.tab-sub li.selected a:hover {
+    border:none;
+    height:25px;
+    line-height:25px;
+    padding:0 10px;
+}
+
+/* 2012 年 Profile 改版新增的部分公共样式 */
+.main-wrap a,
+.main-wrap a:hover {
+    color: #369;
+}
+
+/* 按钮 */
+.pf-button-confirm,
+.pf-button-cancel {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+
+    width: 52px;
+    height: 25px;
+
+    line-height: 25px;
+}
+
+.main-wrap .pf-button-confirm,
+.main-wrap .pf-button-confirm:hover {
+    /* 橙色按钮，一般为保存操作 */
+    text-decoration: none;
+    background: #f65a00;
+    border: 1px solid #d40;
+    color: #FFF;
+}
+
+.main-wrap .pf-button-cancel,
+.main-wrap .pf-button-cancel:hover {
+    /* 白色按钮，一般为取消操作 */
+    text-decoration: none;
+    background: #f6f6f6;
+    border: 1px solid #d4d4d4;
+    color: #333;
+}
+
+/* 文档框 */
+.f-txt {
+    border: 1px solid #c1cde1;
+    padding: 5px;
+    width: 280px;
+	height:10px;
+}
+
+.pf-required {
+    color: red;
+}
+
+/* 资料填写完整情况的进度条 */
+.pf-step {
+    width: 400;
+    margin: 0 0 40px;
+}
+
+.pf-step .pf-step-box,
+.pf-step .pf-current,
+.pf-step .pf-expect {
+    overflow: hidden;
+    display: inline-block;
+
+    height: 10px;
+}
+
+.pf-step .pf-current,
+.pf-step .pf-expect {
+    float: left;
+}
+
+.pf-step .pf-step-box {
+    /* 外层容器，灰底 */
+    background: #dcdcdc;
+
+    width: 250px;
+}
+
+.pf-step .pf-current {
+    /* 当前的完整度 */
+
+    background: #2bbb14;
+}
+
+.pf-step .pf-expect {
+    /* 如果填写了 XX 信息后会达到的完整度 */
+
+    background: #a7d2a0;
+}
+
+.sns-config .sns-tab ul.tab-sub {
+    border-left: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+}
+
+.mytaobao-v2 .sns-box {
+    margin-bottom: 0;
+}
+
+.mytaobao-v2 .box-detail .bd {
+    min-height: 390px;
+    _height: 540px;
+}
+
+ #fix{ position: fixed; /*background-image: url(../images/1010.jpg);*/ width:1366px; height:40px; margin-top:0px;
+
+ }

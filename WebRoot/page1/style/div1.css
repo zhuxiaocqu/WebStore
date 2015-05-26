@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;border:none;}
+
+nav{display:block}
+ul {list-style: none;}	
+body{}
+	
+.font01 {color:#000;}
+.font02{
+	color:#669;
+	font-size:20px;
+	}
+	
+#top_01{height:24px;width:100%;background-image:url(../images/bg_04.PNG);background-repeat:repeat-x;padding-top:1px;}
+#top_02{display:block;float:right;height:100%;}
+#top_03{height:140px;background-color:#9c0;}
+#top_04{height:30px;background-color:#9c0;}
+#top_05{
+	height:30px;
+	width:100%;
+	background-color:#fc0;
+	padding-top:7px;
+	}
+	
+#name,#password{border:1px solid #276700;height:18px;width:110px;margin-top:2px;margin-right:10px;}	
+#login{margin-right:1px;}
+#regist{margin-right:80px;}
+
+#title_01,#title_02{color:#FFF;font-family:"Arial Black", Gadget, sans-serif;font-size:28px;font-weight:bold;}
+#title{display:block;float:left;margin:20px 0 0 120px;}
+#title_01{font-size:48px;}
+#title_02{letter-spacing:4px;}
+	
+#menu {background:#fc0;padding:5px 2px;height:39px;}
+#menu > li {border-right:1px solid #f2f2f2;float:left}
+#menu .last {border:0}
+#menu > li > a {display:block;padding:0 62px;font-size:16px;color:#fff;
+font-weight:bold;text-decoration:none;line-height:39px}
+#menu > li > a:hover {color:#93f;}
+#menu > .active > a {color:#fff}
+
+#form2{
+	display:block;
+	float:left;
+	height:32px;
+	padding-top:10px;
+	margin-left:60px;
+	}
+#search{
+	border:1px 
+	solid #276700;
+	height:16px;
+	width:150px;
+	margin-right:7px;	
+	}
+#button{
+	margin-right:40px;
+	margin-top:0;
+	height:18px;
+	}
+
+.nodecousor {
+	cursor: pointer;
+}
+
+#left_01{
+	width:200px;
+	height:800px;
+	background-color:#fc0;
+	}
+#left_01 ul{
+	margin: 0px;
+	padding: 0px;
+	
+	}
+#left_01 li{
+	list-style-type:none;
+	height:20px;
+	border: 1px;
+	border-style:solid;
+	border-color:#fff;
+	text-align:center;
+	padding-top:12px;
+	}
+#good_02{
+	background-color:#cf9;
+	font-size:14px;
+	}
+	
+#link_01{
+	display:block;
+	margin-right:70px;
+	font-size:14px;
+	padding-top:3px;
+	}
+	
+#link_01 > a
+{
+	text-decoration:none;
+	color:#000;
+	}
+#link_01 > a:hover
+{
+	text-decoration:none;
+	color:#F00;
+	}
+#head_search{
+	display:block;
+	float:right;
+	margin:100px 100px;
+	}
+#menu_letter{
+	color:#FFF;
+	word-spacing:3px;
+	font-size:16px;
+	margin-left:20px;
+	}

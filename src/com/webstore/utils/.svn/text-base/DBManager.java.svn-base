@@ -1,0 +1,41 @@
+package com.webstore.utils;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBManager {
+	private static String CLASSNAME="oracle.jdbc.driver.OracleDriver";
+	private static String USERNAME="zx";
+	private static String PSW="coolboy";
+	private static String URL="jdbc:oracle:thin:@172.30.27.136:1521:ZHUXIAO";
+	
+	static{
+		//1.¼ÓÔØÇý¶¯
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static Connection connectDB(){
+		Connection con=null;
+		try {
+			con=DriverManager.getConnection(URL, USERNAME, PSW);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return con;
+	}
+	
+	public static void closeDB(Connection con){
+		try {
+			con.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,119 @@
+package com.webstore.bean.subobject;
+
+/**
+ * 商品信息类  存放商品所有信息
+ * @author zhuxiao
+ *
+ */
+public class Product {
+	private int ProductID;
+	private float MarketPrice;
+	private float Discount;
+	private String ProductName;
+	private String TradeMark;
+	private String DetailInfo;
+	private ProductBigType bigType;
+	private ProductSmallType smallType;
+	private ProductDetailType detailType;
+	private Producer producer;
+	/**
+	 * 获取商品ID
+	 * @return int
+	 */
+	public int getProductID() {
+		return ProductID;
+	}
+	public void setProductID(int productID) {
+		ProductID = productID;
+	}
+	/**
+	 * 获取商品价格
+	 * @return float
+	 */
+	public float getMarketPrice() {
+		return MarketPrice;
+	}
+	public void setMarketPrice(float marketPrice) {
+		MarketPrice = marketPrice;
+	}
+	/**
+	 * 获取商品折扣
+	 * @return float
+	 */
+	public float getDiscount() {
+		return Discount;
+	}
+	public void setDiscount(float discount) {
+		Discount = discount;
+	}
+	/**
+	 * 获取商品名称
+	 * @return String
+	 */
+	public String getProductName() {
+		return ProductName;
+	}
+	public void setProductName(String productName) {
+		ProductName = productName;
+	}
+	/**
+	 * 获取商品品牌
+	 * @return String
+	 */
+	public String getTradeMark() {
+		return TradeMark;
+	}
+	public void setTradeMark(String tradeMark) {
+		TradeMark = tradeMark;
+	}
+	/**
+	 * 获取商品详细信息
+	 * @return String
+	 */
+	public String getDetailInfo() {
+		return DetailInfo;
+	}
+	public void setDetailInfo(String detailInfo) {
+		DetailInfo = detailInfo;
+	}
+	/**
+	 * 获取商品大类
+	 * @return String
+	 */
+	public ProductBigType getBigType() {
+		return bigType;
+	}
+	public void setBigType(ProductBigType bigType) {
+		this.bigType = bigType;
+	}
+	/**
+	 * 获取商品小类
+	 * @return String
+	 */
+	public ProductSmallType getSmallType() {
+		return smallType;
+	}
+	public void setSmallType(ProductSmallType smallType) {
+		this.smallType = smallType;
+	}
+	/**
+	 * 获取商品详细分类
+	 * @return String
+	 */
+	public ProductDetailType getDetailType() {
+		return detailType;
+	}
+	public void setDetailType(ProductDetailType detailType) {
+		this.detailType = detailType;
+	}
+	public Producer getProducer() {
+		return producer;
+	}
+	/**
+	 * 获取商品生产商
+	 * @return String
+	 */
+	public void setProducer(Producer producer) {
+		this.producer = producer;
+	}
+}
